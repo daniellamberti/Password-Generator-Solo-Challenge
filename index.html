@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Generate a random password - Solo Project</title>
+</head>
+<body>
+    <div id="container">
+        <div id="data"></div>
+        <h2>Generate a</h2>
+        <h2 class="secondSentence">random password</h2>
+        <p id="lastParagraph">Never use an insecure password again</p>
+
+    <button id="passw-generator" onclick="passwordsGenerator()">Generate passwords</button>
+
+    <hr>
+    
+    <button id="passw1"></button>
+    <button id="passw2"></button> 
+    <button id="copypassw1" class="secondaryButtons" onclick="copyPassw(passw1El)">Copy to Clipboard</button>
+    <button id="copypassw2" class="secondaryButtons" onclick="copyPassw(passw2El)">Copy to Clipboard</button>
+    <button id="reset" class="resetButton" onclick="reset()">Reset</button>
+</div>
+
+<script rel="text/javascript" src="/main.js"></script>
+</body>
+</html>
